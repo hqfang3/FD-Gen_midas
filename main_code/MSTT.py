@@ -33,9 +33,9 @@ def PLOT_FIRE_SOURCE_LOCATIONS(FSL_ID, PARAMETERS_OUTPUT, SKIP_CASE=1):
                 fire_burner_W=parameter.FIRE_BURNER_SIZE[1]
                 fire_burner_H=parameter.FIRE_BURNER_SIZE[2]
                 # mesh size
-                mesh_size_x=parameter.MESH_SIZE[0]
-                mesh_size_y=parameter.MESH_SIZE[1]
-                mesh_size_z=parameter.MESH_SIZE[2]
+                mesh_size_x=parameter.MESH_SIZE[0] if parameter.MESH_SIZE[0] is not None else 0.1
+                mesh_size_y=parameter.MESH_SIZE[1] if parameter.MESH_SIZE[1] is not None else 0.1
+                mesh_size_z=parameter.MESH_SIZE[2] if parameter.MESH_SIZE[2] is not None else 0.1
                 # fire source locations
                 fire_source_location_x=parameter.SAMPLES[0]
                 fire_source_location_y=parameter.SAMPLES[1]
