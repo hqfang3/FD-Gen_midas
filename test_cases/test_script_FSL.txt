@@ -14,5 +14,5 @@
 &GFSL ID='fire source', PRE_PARM_INFO_ID='PRE_FSL', GENERATOR_ID='FS_X','FS_Y','FS_Z'/
 ===========================================================
 # FDS code
-&OBST ID='fire source', XB=0.7,3.7,22.1,26.3,0.0,3.4, SURF_IDS='CURVE','INERT','INERT'/
+&OBST ID='fire source', XB=0.7,3.7,22.1,26.3,0.0,0.2, SURF_IDS='CURVE','INERT','INERT'/
 ===========================================================
