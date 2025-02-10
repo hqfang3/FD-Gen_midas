@@ -77,7 +77,7 @@ In addition to the spreadsheet containing the sampled parameter value informatio
 ## Example
 
 ### Start
-[**commercial building fire case**](example\example_commercial.fds)
+[**commercial building fire case**](\example\example_commercial.fds)
 
 1. download **FD-Gen.exe** and the example input file **example_commercial.fds**
 
